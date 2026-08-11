@@ -1,0 +1,14 @@
+[GLOBAL]
+pants_version = "2.33.0"
+backend_packages.add = [
+  "pants.backend.python",
+]
+
+[python]
+interpreter_constraints = ["==3.14.*"]
+enable_resolves = true
+resolver = "uv"
+
+[source]
+root_patterns = ["/"]
+
