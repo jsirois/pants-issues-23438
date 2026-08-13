@@ -9,6 +9,15 @@ interpreter_constraints = ["==3.14.*"]
 enable_resolves = true
 resolver = "uv"
 
+[pex-cli]
+version = "v2.100.4"
+known_versions = [
+  "v2.100.4|macos_x86_64|51d8a7c77f037e3ba909d12fd2790785ebb6a4c06582312ad57f77bc7f8e1136|5398053",
+  "v2.100.4|macos_arm64|51d8a7c77f037e3ba909d12fd2790785ebb6a4c06582312ad57f77bc7f8e1136|5398053",
+  "v2.100.4|linux_x86_64|51d8a7c77f037e3ba909d12fd2790785ebb6a4c06582312ad57f77bc7f8e1136|5398053",
+  "v2.100.4|linux_arm64|51d8a7c77f037e3ba909d12fd2790785ebb6a4c06582312ad57f77bc7f8e1136|5398053",
+]
+
 [source]
 root_patterns = ["/"]
 
